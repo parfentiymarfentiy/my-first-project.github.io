@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HarborVPN - Регистрация</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="auth-page">
+    <div class="auth-container">
+        <div class="auth-card">
+            <div class="auth-header">
+                <img src="images/logo.png" alt="HarborVPN" class="logo">
+                <h1 data-translate="register">Регистрация</h1>
+            </div>
+            
+            <form id="registerForm" class="auth-form">
+                <div class="form-group">
+                    <label for="regName" data-translate="name">Имя</label>
+                    <input type="text" id="regName" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="regEmail" data-translate="email">Email</label>
+                    <input type="email" id="regEmail" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="regPassword" data-translate="password">Пароль</label>
+                    <input type="password" id="regPassword" name="password" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="confirmPassword" data-translate="confirm_password">Подтвердите пароль</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" required>
+                </div>
+                
+                <button type="submit" class="btn-primary full-width" data-translate="register">Зарегистрироваться</button>
+            </form>
+            
+            <div class="auth-footer">
+                <p data-translate="have_account">Уже есть аккаунт? <a href="login.html" data-translate="login">Войти</a></p>
+                <p><a href="main.html" data-translate="back_to_main">← Вернуться на главную</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="auth.js"></script>
+</body>
+</html>

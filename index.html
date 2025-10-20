@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HarborVPN - Выбор языка</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="language-page">
+    <div class="language-container">
+        <div class="language-card">
+            <div class="logo-section">
+                <img src="images/logo.png" alt="HarborVPN" class="logo-large">
+                <h1>HarborVPN</h1>
+                <p>Выберите язык / Choose language / Оберіть мову</p>
+            </div>
+            
+            <div class="language-buttons">
+                <button class="language-btn" onclick="selectLanguage('uk')">
+                    <span class="flag">🇺🇦</span>
+                    Українська
+                </button>
+                
+                <button class="language-btn" onclick="selectLanguage('ru')">
+                    <span class="flag">🇷🇺</span>
+                    Русский
+                </button>
+                
+                <button class="language-btn" onclick="selectLanguage('en')">
+                    <span class="flag">🇺🇸</span>
+                    English
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
